@@ -3,6 +3,7 @@ import {  Navigate } from "react-router-dom";
 import {useAuth} from "../hooks/use-auth";
 import {useDispatch} from "react-redux";
 import {removeUser} from "../store/slices/userSlice";
+import Button from '@mui/material/Button';
 
 const HomePage = () => {
  const {isAuth, email} = useAuth();
@@ -15,9 +16,9 @@ const HomePage = () => {
     return  isAuth ? (
         <div>
             <h1>Welcome</h1>
-            <button
-                onClick={(handleLogout)}
-            >Log out from {email}</button>
+            <Button variant="contained"  onClick={(handleLogout)}>
+                Log out from {email}
+            </Button>
         </div>
     ) : (
         <Navigate to="/login" />

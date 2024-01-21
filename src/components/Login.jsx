@@ -6,8 +6,6 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import {setUser} from "../store/slices/userSlice";
 import {useNavigate} from "react-router-dom";
 
-
-
 const Login = () => {
 
     const dispatch = useDispatch();

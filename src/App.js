@@ -6,7 +6,7 @@ import RegisterPage from "./pages/RegisterPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
         <Routes>
             <Route exact path='/'  element={<HomePage/>}/>
             <Route exact path='/login'  element={<LoginPage/>}/>
