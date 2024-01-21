@@ -6,10 +6,19 @@
 -Redux-Toolkit
 -React-router
 -Firebase
+-MUi
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+# Deploy
+
+-Netlify
+
+[https://65ad21765fea0465d28073b1--teal-griffin-dac5e2.netlify.app/login]
+
 
 ## Available Scripts
 
